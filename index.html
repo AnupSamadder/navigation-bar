@@ -5,8 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+        li:last-child {
+            border-right: none;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration:none;
+        }
+        li a:hover {
+            background-color: #04aa6d;
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>This Project Is About Navigation Menu Bar</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li style="float: right"><a href="#">About</a></li>
+    </ul>
+    <h1>This Project Is A Navigation Menu Bar</h1>
 </body>
 </html>
